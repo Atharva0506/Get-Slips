@@ -18,7 +18,7 @@ else if(y === 'R%20Programming'){
 else if(y === 'Data%20Strcture'){
     ex = '.c';
 }
-        $http.get('https://raw.githubusercontent.com/Atharva0506/SYBBA-CA--SEM-3-PRACTICAL-SLIPS/master/' + y + '/' + 'slip'+ x + ex).then(function (response) {
+        $http.get('https://raw.githubusercontent.com/Atharva0506/SYBBA-CA--SEM-3-PRACTICAL-SLIPS/master/' + y + '/' + 'Slip'+ x + ex).then(function (response) {
             $scope.data = response.data;
             $scope.err = "";
 
