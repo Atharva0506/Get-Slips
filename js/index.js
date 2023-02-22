@@ -25,7 +25,7 @@ else if(y === 'Data%20Strcture'){
         },
         function error(response) {
             $scope.data = "";
-            $scope.err =  "Please enter valid Slip No";
+            $scope.err =  "Please enter valid Slip No"; 
         }
         )};
 
